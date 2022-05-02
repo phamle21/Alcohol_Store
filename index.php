@@ -1,2 +1,2 @@
 <?php
-    header('Location:  ./Client/master.php');
+    header('Location:  ./client/');
