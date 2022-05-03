@@ -86,6 +86,8 @@
     </svg></div>
 
 
+<script src="./build/js/custom.js"></script>
+
 <script src="./build/js/jquery.min.js"></script>
 <script src="./build/js/jquery-migrate-3.0.1.min.js"></script>
 <script src="./build/js/popper.min.js"></script>
@@ -101,6 +103,7 @@
 <script src="./build/js/google-map.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 <script src="./build/js/main.js"></script>
+
 
 </body>
 

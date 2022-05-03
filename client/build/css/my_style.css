@@ -1,0 +1,31 @@
+.btn-product {
+    border: 1px solid gray;
+    background: transparent;
+    color: white;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-product:hover {
+    background-color: rgba(182, 182, 182, 0.527);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.hover_cart:hover{
+    color: white;
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.img_more_detail{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.img_more_detail:hover{
+    box-shadow: 0 0 10px rgb(255, 68, 0);
+    transform: scale(1.1);
+}
