@@ -13,7 +13,7 @@ include_once "header.php";
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-end justify-content-center">
 			<div class="col-md-9 ftco-animate mb-5 text-center">
-				<p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
+				<p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.php">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
 				<h2 class="mb-0 bread">About Us</h2>
 			</div>
 		</div>
@@ -63,7 +63,7 @@ include_once "header.php";
 <section class="ftco-section ftco-no-pb">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+			<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(build/images/about.jpg);">
 			</div>
 			<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
 				<div class="heading-section">
@@ -88,37 +88,37 @@ include_once "header.php";
 		<div class="row">
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-1.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-1.jpg);"></div>
 					<h3>Brandy</h3>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-2.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-2.jpg);"></div>
 					<h3>Gin</h3>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-3.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-3.jpg);"></div>
 					<h3>Rum</h3>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-4.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-4.jpg);"></div>
 					<h3>Tequila</h3>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-5.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-5.jpg);"></div>
 					<h3>Vodka</h3>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 ">
 				<div class="sort w-100 text-center ftco-animate">
-					<div class="img" style="background-image: url(images/kind-6.jpg);"></div>
+					<div class="img" style="background-image: url(build/images/kind-6.jpg);"></div>
 					<h3>Whiskey</h3>
 				</div>
 			</div>
@@ -128,7 +128,7 @@ include_once "header.php";
 </section>
 
 
-<section class="ftco-section testimony-section img" style="background-image: url(images/bg_4.jpg);">
+<section class="ftco-section testimony-section img" style="background-image: url(build/images/bg_4.jpg);">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center mb-5">
@@ -146,7 +146,7 @@ include_once "header.php";
 							<div class="text">
 								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<div class="user-img" style="background-image: url(build/images/person_1.jpg)"></div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -161,7 +161,7 @@ include_once "header.php";
 							<div class="text">
 								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<div class="user-img" style="background-image: url(build/images/person_2.jpg)"></div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -176,7 +176,7 @@ include_once "header.php";
 							<div class="text">
 								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+									<div class="user-img" style="background-image: url(build/images/person_3.jpg)"></div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -191,7 +191,7 @@ include_once "header.php";
 							<div class="text">
 								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<div class="user-img" style="background-image: url(build/images/person_1.jpg)"></div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -206,7 +206,7 @@ include_once "header.php";
 							<div class="text">
 								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<div class="user-img" style="background-image: url(build/images/person_2.jpg)"></div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>

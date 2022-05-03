@@ -9,8 +9,12 @@ require_once "../database/config.php";
 
 <head>
 	<title>Alcohol Store</title>
+
 	<meta charset="utf-8">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="./build/images/prod-5.jpg" type="image/x-icon">
 
 	<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
@@ -26,6 +30,9 @@ require_once "../database/config.php";
 
 	<link rel="stylesheet" href="build/css/flaticon.css">
 	<link rel="stylesheet" href="build/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -101,18 +108,33 @@ require_once "../database/config.php";
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-					<li class="nav-item dropdown active">
+					<li class="nav-item">
+						<a href="index.php" class="nav-link client-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.php" class="nav-link client-link">About</a>
+					</li>
+					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
-							<a class="dropdown-item" href="product.php">Products</a>
-							<a class="dropdown-item" href="cart.php">Cart</a>
-							<a class="dropdown-item" href="checkout.php">Checkout</a>
+							<a class="dropdown-item client-link" href="product.php">Products</a>
+							<a class="dropdown-item client-link" href="cart.php">Cart</a>
+							<a class="dropdown-item client-link" href="checkout.php">Checkout</a>
 						</div>
 					</li>
-					<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+					<li class="nav-item">
+						<a href="contact.php" class="nav-link client-link">Contact</a>
+					</li>
 				</ul>
+				<script>
+					$('.client-link').each(function(i) {
+						if (window.location == this.href) {
+							$('.client-link').eq(i).addClass('active')
+							$('.client-link').eq(i).parent('.nav-item').addClass('active')
+							$('.client-link').eq(i).parent().parent('.nav-item').addClass('active')
+						}
+					})
+				</script>
 			</div>
 		</div>
 	</nav>
